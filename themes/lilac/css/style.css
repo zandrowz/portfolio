@@ -1,12 +1,13 @@
 body {
-    background-color: rgb(228, 177, 228);
+    /*background-color: rgb(218, 188, 218);*/
+    background-color: floralwhite;
 }
 
 * {
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
-    padding: 0;
+    padding: 5;
 }
 
 ol, ul {
@@ -31,6 +32,9 @@ body {
 .main {
     flex: 1 0 auto;
     margin: 10px;
+    /*margin-bottom: 50px;*/
+    padding-bottom: 100px;
+    margin-top: 10px;
 }
 
 .header, .footer {
@@ -73,9 +77,15 @@ body {
 /* Footer */
 
 .footer {
+    background-color: rgb(157, 98, 158);
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    align-items:center;
     border-top: 1px solid #222;
+    padding: 3em;
+    height: 150px;
+    color: white;
+
 }
 
 .footer a {

@@ -1,8 +1,8 @@
 ---
-Logo: image/jag2.jpg
+Logo: image/pngaaa.com02.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/zandrowz/portfolio
       icon: github
 ---
