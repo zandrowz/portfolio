@@ -1,0 +1,48 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $footer-color;
+}
+
+.site-header {
+    display: flex;
+    margin: 10px;
+}
+
+.logo > a > img {
+    width: 256px;
+    max-width: 256px;
+}
+
+.title p {
+    color: $header-color;
+    font-size: 20px;
+    //text-align: center;
+
+}
+
+.title h1 {
+    color: $header-color;
+    text-decoration: none;
+    font-size: 40px;
+    //text-align: center;
+}
+
+@media (max-width: 767px) {
+    // .header {
+    //     width: 96%;
+    // }
+
+    .title {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        display: none !important;
+    }
+}

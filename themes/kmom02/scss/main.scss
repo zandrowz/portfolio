@@ -1,0 +1,36 @@
+body {
+    //overflow-y: scroll;
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    color: $font-color;
+    //margin: 0;
+
+}
+
+.main {
+    flex: 1 0 auto;
+    min-height: 500px;
+    // width: 64em;
+    // margin: 2em auto;
+    text-align: center;
+    align-content: center;
+    background-color: $background-color;
+    padding: 3em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div {
+    display: block;
+}
+
+.header .footer {
+    flex: 0 0 auto;
+}
+
+// @media (max-width: 767px) {
+//     .main {
+//         width: 96%;
+//     }
+// }

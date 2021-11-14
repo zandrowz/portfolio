@@ -1,0 +1,29 @@
+
+.footer {
+
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid $font-color;
+    padding: 3em;
+    background-color: $footer-background-color;
+    color: $footer-color;
+}
+
+.social a {
+    color: $font-color;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.social i:hover {
+    color: $links-hover;
+}
+
+// @media (max-width: 767px) {
+//     .footer {
+//         width: 96%;
+//     }
+// }
+

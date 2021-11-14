@@ -1,19 +1,13 @@
 ---
-Title: Om mig
-Description: Page about me.
+Title: About
+Description: En sida där jag beskriver vilka tekniker jag använder på denna sida.
 ---
 
-Om mig
+Om sidans tekniker
 ==================
 
-Hej!
+På denna sida använder jag ramverket Pico som är ett (CMS) Content Management System. Sidorna är skriva i Markdown och html och stylingen är gjord via SASS.
 
-Mitt namn är Sandra. Jag är en 33-årig tjej som är född och uppvuxen i Linköping. Bor sedan några år tillbaka i en villa i Björsäter, en liten ort på landsbygden utanför Åtvidaberg. 
+Jag har hämtat in fonter och ikoner från Google Fonts och Font Awesome. Jag har valt att använda olika fonter för rubriker och text. Jag har inte lagt så mycket tid på stylingen utan har koncentrerat mig på att försöka lära mig strukturen kring SASS och Pico, mappstrukturen, alla begrepp osv. 
 
-Bor här med sambo och två barn på 9 och 6 år.
-
-Fritiden ägnar jag mest åt familjen och barnen. Böcker, djur, tv-spel och pyssla med diverse husprojekt är några andra intressen.
-
-Vi hörs!
-
-/Sandra
+När det gäller SASS har jag bl.a. skapat variabler för olika färger och samlat dom i en modul 'variables.scss'. Jag har även använt mig av nästlade sektioner vilket gör att man kan gruppera selektorer som hör till en viss huvudklass.
