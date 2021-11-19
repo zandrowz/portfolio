@@ -11,4 +11,7 @@ Social:
     - title: Link till min instagram.
       url: https://www.instagram.com/zandrowz/
       icon: fab fa-instagram-square
+    - title: Link 
+      icon: fas fa-chevron-double-right
+
 ---

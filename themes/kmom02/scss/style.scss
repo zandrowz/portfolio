@@ -7,6 +7,7 @@
 /* Fonts */
 //@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
 
 /* External modules */
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -20,7 +21,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'main';
 @import 'header';
 @import 'footer';
-@import 'mobile-menu';
+//@import 'mobile-menu';
+@import 'media-queries';
+@import 'technologies';
 @import 'blockquotes';
 @import 'code';
 

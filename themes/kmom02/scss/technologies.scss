@@ -1,0 +1,123 @@
+// .technology-container {
+//     display: grid;
+//     grid-column: span 3;
+//     gap: 1em 1em;
+//     padding: 0 1em;
+//     /*
+//     grid-template-columns: */
+// }
+
+// .technology-container h1, 
+// .technology-container p {
+//     grid-column: span 3;
+// }
+
+// .technology-container .technology {
+//     border: 2px solid $border-color;
+//     grid-column: span 1;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 1em;
+//     background-color: $box-color;
+// }
+
+
+// @media (max-width: 767px) {
+//     .technology-container,
+//     .technology-container h1,
+//     .technology {
+//         grid-column: span 1;
+//     }
+// }
+
+
+.landingpage {
+    display: grid;
+    gap: 2em 2em;
+    padding: 0 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    // justify-self: center;
+    // margin-left: 0.75em;
+    margin-bottom: 0;
+}
+
+.landingpage p {
+    grid-column: span 3;
+}
+
+.tech-box {
+    box-shadow: 10px 5px 5px $border-alternative-color;
+    border-radius: 5px;
+    align-items: center;
+    height: 3em;
+    border: 1px solid $border-alternative-color;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: $box-color;
+}
+
+.tech-box-header {
+    display: flex;
+}
+
+.tech-box-header h2 {
+    justify-self: center;
+}
+
+.tech-box-footer i {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5em;
+}
+
+.tech-box a {
+    //text-decoration: underline;
+    color: $title-color;
+    margin-bottom: 5em;
+}
+
+.tech-box.wide {
+    grid-column: 2 / 3;
+}
+
+.technology-article {
+    display: flex;
+    flex-direction: row;
+}
+
+.technology-article .sidebar {
+    width: 30%;
+}
+
+.technology-article .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration: underline;
+}
+
+.technology-article .article {
+    width: auto;
+    padding-left: 5em;
+}
+
+.technology-article .sidebar ul a {
+    color: $title-color;
+}
+
+@media (max-width: 767px) {
+    .landingpage h1,
+    .tech-box,
+    .tech-box.wide {
+        grid-column: span 1;
+    }
+    
+    .technology-article .sidebar {
+        display: none;
+    }
+}

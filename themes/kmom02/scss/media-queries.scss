@@ -1,0 +1,22 @@
+@media (max-width: 767px) {
+    .main {
+        width: 96%;
+        padding: 2em 0 1em;
+    }
+
+    .title {
+        padding: 1em 1em 1em 0;
+    }
+
+    .logo {
+        display: none !important;
+    }
+
+    .footer p {
+        padding: 1em 0;
+    }
+
+    .footer .social {
+        padding: 0.5em 0 0.5em 1em;
+    }
+}

@@ -3,7 +3,7 @@ body {
     background-color: $background-color;
     display: flex;
     flex-direction: column;
-    color: $font-color;
+    //color: $font-color;
     //margin: 0;
 
 }
@@ -11,18 +11,24 @@ body {
 .main {
     flex: 1 0 auto;
     min-height: 500px;
-    // width: 64em;
-    // margin: 2em auto;
-    text-align: center;
-    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 50em;
+    //text-align: center;
+    //align-content: center;
     background-color: $background-color;
     padding: 3em;
-    margin-top: auto;
-    margin-bottom: auto;
+    //margin-top: auto;
+    margin-bottom: 2em;
+    color: $font-color;
 }
 
 div {
     display: block;
+}
+
+img {
+    max-width: 100%;
 }
 
 .header .footer {

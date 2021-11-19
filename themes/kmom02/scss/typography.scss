@@ -6,13 +6,20 @@
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Petemoss', cursive;
 }
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+// .landingpage h1 {
+//     font-family: 'Open Sans', sans-serif;
+// }
 
 h1 {
     font-size: 2.8em;
@@ -28,6 +35,8 @@ body {
 }
 
 p {
+    // word-wrap: break-word;
+    // margin-bottom: 0.6em;
     font-size: $main-font-size;
     margin-bottom: $magic-number;
 }

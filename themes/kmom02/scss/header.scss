@@ -2,13 +2,34 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: $footer-color;
+    background-color: $background-color;
 }
 
 .site-header {
     display: flex;
     margin: 10px;
 }
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.nav ul li a {
+    color: $title-color;
+}
+
+.nav ul li a:hover {
+    color: $font-color;
+}
+
+// .nav ul {
+//     display: flex;
+//     justify-content: flex-end;
+//     padding: 1em 0;
+//     list-style: none;
+//     color: $title-color;
+// }
 
 .logo > a > img {
     width: 256px;
@@ -19,7 +40,6 @@
     color: $header-color;
     font-size: 20px;
     //text-align: center;
-
 }
 
 .title h1 {
@@ -29,20 +49,20 @@
     //text-align: center;
 }
 
-@media (max-width: 767px) {
-    // .header {
-    //     width: 96%;
-    // }
+// @media (max-width: 767px) {
+//     // .header {
+//     //     width: 96%;
+//     // }
 
-    .title {
-        padding: 1em 1em 1em 0;
-    }
+//     .title {
+//         padding: 1em 1em 1em 0;
+//     }
 
-    .title {
-        min-width: 50%;
-    }
+//     .title {
+//         min-width: 50%;
+//     }
     
-    .logo {
-        display: none !important;
-    }
-}
+//     .logo {
+//         display: none !important;
+//     }
+// }
