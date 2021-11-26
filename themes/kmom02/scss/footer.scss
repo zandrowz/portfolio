@@ -12,13 +12,13 @@
 }
 
 .social a {
-    color: $font-color;
+    color: $footer-color;
     text-decoration: none;
     font-size: 2rem;
 }
 
 .social i:hover {
-    color: $links-hover;
+    color: $font-color;
 }
 
 // @media (max-width: 767px) {

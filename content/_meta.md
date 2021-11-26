@@ -11,7 +11,10 @@ Social:
     - title: Link till min instagram.
       url: https://www.instagram.com/zandrowz/
       icon: fab fa-instagram-square
-    - title: Link 
-      icon: fas fa-chevron-double-right
-
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

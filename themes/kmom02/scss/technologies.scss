@@ -1,41 +1,8 @@
-// .technology-container {
-//     display: grid;
-//     grid-column: span 3;
-//     gap: 1em 1em;
-//     padding: 0 1em;
-//     /*
-//     grid-template-columns: */
-// }
-
-// .technology-container h1, 
-// .technology-container p {
-//     grid-column: span 3;
-// }
-
-// .technology-container .technology {
-//     border: 2px solid $border-color;
-//     grid-column: span 1;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     padding: 1em;
-//     background-color: $box-color;
-// }
-
-
-// @media (max-width: 767px) {
-//     .technology-container,
-//     .technology-container h1,
-//     .technology {
-//         grid-column: span 1;
-//     }
-// }
-
-
 .landingpage {
     display: grid;
     gap: 2em 2em;
     padding: 0 1em;
+    grid-template-columns: calc(100% / 3);
 }
 
 .landingpage h1 {
@@ -56,10 +23,12 @@
     height: 3em;
     border: 1px solid $border-alternative-color;
     grid-column: span 1;
-    display: flex;
-    flex-direction: column;
+    //display: flex;
+    //flex-direction: column;
+    display: grid;
     padding: 2em;
     background-color: $box-color;
+    color: $box-font-color;
 }
 
 .tech-box-header {
@@ -78,7 +47,7 @@
 
 .tech-box a {
     //text-decoration: underline;
-    color: $title-color;
+    color: $box-a-color;
     margin-bottom: 5em;
 }
 
@@ -93,17 +62,20 @@
 
 .technology-article .sidebar {
     width: 30%;
+    margin: 30px;
+
 }
 
 .technology-article .sidebar ul {
     list-style-type: none;
     padding-left: 0;
     text-decoration: underline;
+    margin-right: 30px;
+
 }
 
 .technology-article .article {
     width: auto;
-    padding-left: 5em;
 }
 
 .technology-article .sidebar ul a {
@@ -119,5 +91,9 @@
     
     .technology-article .sidebar {
         display: none;
+    }
+
+    .technology-article .article {
+        width: 96%;
     }
 }
