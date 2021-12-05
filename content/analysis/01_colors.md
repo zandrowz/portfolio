@@ -103,7 +103,7 @@ När det gäller typsnitten så använder ju alla dessa tre webbplatser Sans ser
 är nog så de vill framstå alla tre.
 
 Starbucks har grön som sin färg på logga och webbplats. Med den gröna färgen vill de troligtvis skapa en harmonisk och lugn webbplats.
-Den gröna färgen tror jag även symboliserar miljö, hälsa och välbefinnande. De använder sig av en stor banner med text/buskap och logga
+Den gröna färgen tror jag även symboliserar miljö, hälsa och välbefinnande. De använder sig av en stor banner med text/budskap och logga
 mitt på sidan för att 'fånga' besökarna och sticka ut. Snyggt.
 
 Mc Donalds däremot har en ganska färglös sida och har bara valt att använda färgerna från sin logga. För några år sedan bytte Mc Donalds
@@ -122,6 +122,7 @@ Referenser
 - Color Wheel - Adobe. https://color.adobe.com/sv/create/color-wheel
 - ColorZilla - tillägg för webbläsaren.
 
+Övrigt
 -----------------------
 
 Sandra Karlsson
