@@ -6489,6 +6489,10 @@ main h1 {
   font-family: "Petemoss", cursive;
 }
 
+title p {
+  font-family: "Courier New", Courier, monospace;
+}
+
 h1 {
   font-size: 2.8em;
   margin-bottom: 3.5rem;
@@ -6516,6 +6520,16 @@ body {
   background-color: #e6c3d7;
   display: flex;
   flex-direction: column;
+  color: #5f535a;
+  justify-content: center;
+}
+
+.main a {
+  color: #5f535a;
+}
+
+.main a:hover {
+  color: #b398a7;
 }
 
 .main {
@@ -6523,11 +6537,14 @@ body {
   min-height: 500px;
   width: 100%;
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 40em;
   background-color: #e6c3d7;
   padding: 3em;
+  margin-top: 2em;
   margin-bottom: 2em;
-  color: #66575f;
+  color: #5f535a;
+  display: block;
+  border-bottom: 1px solid #5f535a;
 }
 
 div {
@@ -6543,13 +6560,14 @@ img {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  display: block;
   background-color: #e6c3d7;
 }
 
 .site-header {
   display: flex;
+  justify-content: center;
   margin: 10px;
 }
 
@@ -6558,36 +6576,56 @@ img {
   flex: 0 0 auto;
 }
 
+.nav {
+  margin: 0 15%;
+  border-top: 1px solid #5f535a;
+  border-bottom: 1px solid #5f535a;
+  text-align: center;
+}
+
+.nav ul {
+  margin: 0 15%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #e6c3d7;
+  vertical-align: baseline;
+  color: #5f535a;
+}
+
 .nav ul li a {
-  color: #663852;
+  color: #5f535a;
 }
 
 .nav ul li a:hover {
-  color: #66575f;
-}
-
-.logo > a > img {
-  width: 256px;
-  max-width: 256px;
+  color: #b398a7;
+  border-top: 1px solid #5f535a;
+  border-bottom: 1px solid #5f535a;
 }
 
 .title p {
-  color: #663852;
-  font-size: 20px;
+  color: #5f535a;
+  font-size: 55px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-shadow: 4px 4px #998691, 7px 7px #b8a3af;
 }
 
 .title h1 {
-  color: #663852;
+  color: #5f535a;
   text-decoration: none;
   font-size: 40px;
+  text-align: center;
 }
 
 .footer {
   display: flex;
   height: 50px;
-  justify-content: space-between;
-  border-top: 2px solid #66575f;
-  padding: 3em;
+  justify-content: center;
+  border-top: 2px solid #5f535a;
+  padding: 2.5em;
   background-color: #663852;
   color: #e6c3d7;
 }
@@ -6599,7 +6637,7 @@ img {
 }
 
 .social i:hover {
-  color: #66575f;
+  color: #5f535a;
 }
 
 @media (max-width: 767px) {
@@ -6610,6 +6648,10 @@ img {
 
   .title {
     padding: 1em 1em 1em 0;
+  }
+
+  .title > p {
+    width: 96%;
   }
 
   .logo {

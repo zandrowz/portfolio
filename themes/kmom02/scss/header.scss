@@ -1,12 +1,14 @@
 
 .header {
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    display: block;
+    // justify-content: space-between;
     background-color: $background-color;
 }
 
 .site-header {
     display: flex;
+    justify-content: center;
     margin: 10px;
 }
 
@@ -15,12 +17,31 @@
     flex: 0 0 auto;
 }
 
+.nav {
+    margin: 0 15%;
+    border-top: 1px solid $font-color;
+    border-bottom: 1px solid $font-color;
+    text-align: center;
+}
+
+.nav ul {
+    margin: 0 15%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: $background-color;
+    vertical-align: baseline;
+    color: $font-color;
+}
+
 .nav ul li a {
-    color: $title-color;
+    color: $font-color;
 }
 
 .nav ul li a:hover {
-    color: $font-color;
+    color: $links-hover;
+    border-top: 1px solid $font-color;
+    border-bottom: 1px solid $font-color;
 }
 
 // .nav ul {
@@ -31,38 +52,34 @@
 //     color: $title-color;
 // }
 
-.logo > a > img {
-    width: 256px;
-    max-width: 256px;
-}
+// .logo > a > img {
+//     width: 256px;
+//     max-width: 256px;
+// }
+
+// .site-header > title {
+//     text-align: center;
+//     justify-content: center;
+// }
+
+// .site-header > .logo {
+//     width: 240px;
+//     height: 240px;
+// }
 
 .title p {
-    color: $header-color;
-    font-size: 20px;
-    //text-align: center;
+    color: $font-color;
+    font-size: 55px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-shadow: 4px 4px $shadow-color, 7px 7px $shadow-color-2;
 }
 
 .title h1 {
-    color: $header-color;
+    color: $font-color;
     text-decoration: none;
     font-size: 40px;
-    //text-align: center;
+    text-align: center;
 }
-
-// @media (max-width: 767px) {
-//     // .header {
-//     //     width: 96%;
-//     // }
-
-//     .title {
-//         padding: 1em 1em 1em 0;
-//     }
-
-//     .title {
-//         min-width: 50%;
-//     }
-    
-//     .logo {
-//         display: none !important;
-//     }
-// }

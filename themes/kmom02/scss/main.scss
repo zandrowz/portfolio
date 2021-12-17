@@ -3,9 +3,18 @@ body {
     background-color: $background-color;
     display: flex;
     flex-direction: column;
-    //color: $font-color;
+    color: $font-color;
+    justify-content: center;
     //margin: 0;
 
+}
+
+.main a {
+    color: $font-color;
+}
+
+.main a:hover {
+    color: $links-hover;
 }
 
 .main {
@@ -13,14 +22,17 @@ body {
     min-height: 500px;
     width: 100%;
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 40em;
     //text-align: center;
     //align-content: center;
     background-color: $background-color;
     padding: 3em;
-    //margin-top: auto;
+    margin-top: 2em;
     margin-bottom: 2em;
     color: $font-color;
+    display: block;
+    border-bottom: 1px solid $font-color;
+    
 }
 
 div {
@@ -34,11 +46,3 @@ img {
 .header .footer {
     flex: 0 0 auto;
 }
-
-
-
-// @media (max-width: 767px) {
-//     .main {
-//         width: 96%;
-//     }
-// }

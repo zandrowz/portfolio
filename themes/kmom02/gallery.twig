@@ -10,7 +10,7 @@
                 <div>
                     <a href="{{ base.url }}image/gallery/{{ image.url }}" target=_blank">
                         <picture>
-                            <source media="(min-width: 668px)" srcset="{{ base.url }}image/gallery/{{ image.url }}">
+                            <source media="(min-width: 668px)" srcset="{{ base.url }}image/gallery/{{ image.url }}&w=300&h=300&crop-to-fit&save-as=jpg&q=80">
                             <source media="(min-width: 376px)" srcset="{{ base.url }}image/gallery/{{ image.url }}&w=667">
                             <img src="{{ base.url }}image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
                         </picture>
@@ -19,7 +19,7 @@
             {% endfor %}
         </div>
                 <div class="embed-container">
-                    <iframe src="https://www.youtube.com/embed/wJnBTPUQS5A" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/wJnBTPUQS5A" title="youtube" frameborder="0" allowfullscreen></iframe>
                 </div>
     </div>
     
